@@ -6,14 +6,7 @@
     border: none;
 }
 
-body {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #385E72;
-    letter-spacing: 4px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
+/* Header */
 
 #logo {
     font-family: Oswald, sans-serif;
@@ -49,12 +42,22 @@ body {
     transform: translateX(-100%);
 }
 
-
-/* Header */
-
+.active {
+    border-bottom: 1px #D9E4EC;
+}
 
 
 /* About Us */
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #385E72;
+    letter-spacing: 4px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 
 
 /* Sign Up */
