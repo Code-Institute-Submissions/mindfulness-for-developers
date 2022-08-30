@@ -46,6 +46,14 @@
     border-bottom: 1px #D9E4EC;
 }
 
+/* Image */
+
+#dev-image {
+    background-image: url(../css/image/dev-image.png) no-repeat center center;
+    height: ;
+    width: ;
+}
+
 
 /* About Us */
 
