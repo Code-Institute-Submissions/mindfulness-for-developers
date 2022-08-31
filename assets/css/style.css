@@ -8,23 +8,35 @@
 
 /* Header */
 
+header {
+    margin-left: 10px;
+}
+
 #logo {
     font-family: Oswald, sans-serif;
-    color: #6AABD2
-    letter-spacing: 5px;
+    color: #6AABD2;
+    letter-spacing: 10px;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 30px;
+    position: relative;
 }
 
 
 #menu li {
     color: #385E72;
+    font-family: Lato, 'Lucida Sans', sans-serif;
     float: right;
     list-style-type: none;
     text-transform: uppercase;
     display: inline;
     line-height: 0.5px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: auto;
+    letter-spacing: 3.5px;
+    position: relative;
 }
 
 #menu a {
@@ -42,8 +54,8 @@
 
 /* Dev Image */
 
-#dev-outer {
-    background-size: cover;
+#dev-pic {
+    background-image: url(../images/dev-pic.png) no-repeat center center;
 }
 
 /* About Us */
