@@ -28,8 +28,6 @@ header {
     color: #385E72;
     font-family: Lato, 'Lucida Sans', sans-serif;
     float: right;
-    list-style-type: none;
-    list-style: none;
     text-transform: uppercase;
     display: inline;
     line-height: 0.5px;
@@ -37,7 +35,6 @@ header {
     margin-right: 30px;
     margin-bottom: 30px;
     margin-top: auto;
-    letter-spacing: none;
     position: relative;
 }
 
@@ -51,7 +48,6 @@ header {
     width: 100%;
     height: 100%;
     background: #D9E4EC;
-    transform: translateX(-100%);
 }
 
 
@@ -75,13 +71,78 @@ body {
     margin: none;
     height: 100%;
     width: 100%;
+    font-family: lato, sans-serif;
+    letter-spacing: 5px;
+    line-height: 1.6;
+    margin-block-start: 50px;
+    margin-block-end: 50px;
+    margin-block: 50px;
+}
+
+#techniques {
+    color:#385E72;
+    background: white;
+    width: 300px;
+    padding: auto;
+    margin: none;
+    height: 100%;
+    width: 100%;
+    font-family: lato, sans-serif;
+    letter-spacing: 5px;
+    font-size: medium ;
+    line-height: 1.6;
+    line-height: 1.6;
+    margin-block-start: 50px;
+    margin-block-end: 50px;
+    margin-block: 50px;
+    background-color: #D9E4EC;
 }
 
 #welcome-title {
     font-family: oswald, sans-serif;
     letter-spacing: 5px;
+    font-size: xx-large;
+    padding: auto;
+    margin: none;
+    height: 100%;
+    width: 100%;
+    font-family: oswald, sans-serif;
+    letter-spacing: 5px;
 }
 
+#techniques-title {
+    font-family: oswald, sans-serif;
+    letter-spacing: 5px;
+    font-size: xx-large;
+    padding: auto;
+    margin: none;
+    height: 100%;
+    width: 100%;
+    font-family: oswald, sans-serif;
+    letter-spacing: 5px;
+}
+
+.container {
+    display: flex;
+  }
+  .item {
+    flex-basis: 100px;
+    height: auto;
+    margin: auto;
+    width: 100%;
+  }
+
+#meditation-img {
+    
+}
+
+#breath {
+
+}
+
+#skills {
+
+}
 
 /* Sign Up */
 
