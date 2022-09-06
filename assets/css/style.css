@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@300;400&family=Oswald:wght@200&display=swap');
 
 * {
     margin: 0;
@@ -13,20 +13,20 @@ header {
 }
 
 #logo {
-    font-family: Oswald, sans-serif;
-    color: #6AABD2;
-    letter-spacing: 10px;
-    text-transform: uppercase;
+    font-family: Dancing Script, sans-serif;
+    color: #385E72;
+    letter-spacing: 5px;
     text-decoration: none;
     line-height: 30px;
     position: relative;
     text-align: left;
+    font-size: 0.5cm;
 }
 
 
 #menu li {
     color: #385E72;
-    font-family: Lato, 'Lucida Sans', sans-serif;
+    font-family: Lato, sans-serif;
     float: right;
     text-transform: uppercase;
     display: inline;
@@ -51,9 +51,6 @@ header {
 }
 
 
-/*Welcome*/
-
-/* Techniques */
 
 body {
     font-family: Lato, sans-serif;
@@ -62,76 +59,82 @@ body {
     max-height: 1200px;
 }
 
+/*Welcome*/
+
+#welcome-title {
+    letter-spacing: 5px;
+    font-size: 1cm;
+    padding: auto;
+    margin: none;
+    height: 100%;
+    width: 100%;
+    font-family: Dancing Script, sans-serif;
+    letter-spacing: 5px;
+}
+
 #welcome {
     color:#385E72;
     font-size: large;
     background: white;
     width: 300px;
     padding: auto;
-    margin: none;
+    margin: auto;
     height: 100%;
     width: 100%;
-    font-family: lato, sans-serif;
-    letter-spacing: 5px;
+    font-family: Lato, sans-serif;
+    letter-spacing: 3px;
     line-height: 1.6;
     margin-block-start: 50px;
     margin-block-end: 50px;
     margin-block: 50px;
 }
+
+/* Techniques */
 
 #techniques {
     color:#385E72;
     background: white;
     width: 300px;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 50%;
     margin: none;
     height: 100%;
     width: 100%;
     font-family: lato, sans-serif;
-    letter-spacing: 5px;
-    font-size: medium ;
+    letter-spacing: 3px;
+    font-size: large ;
     line-height: 1.6;
     line-height: 1.6;
     margin-block-start: 50px;
     margin-block-end: 50px;
     margin-block: 50px;
     background-color: #D9E4EC;
+    white-space: nowrap;
+    display: block;
 }
 
-#welcome-title {
-    font-family: oswald, sans-serif;
-    letter-spacing: 5px;
-    font-size: xx-large;
-    padding: auto;
-    margin: none;
-    height: 100%;
-    width: 100%;
-    font-family: oswald, sans-serif;
-    letter-spacing: 5px;
-}
 
 #techniques-title {
-    font-family: oswald, sans-serif;
     letter-spacing: 5px;
-    font-size: xx-large;
+    font-size: 1cm;
     padding: auto;
     margin: none;
     height: 100%;
     width: 100%;
-    font-family: oswald, sans-serif;
+    font-family: Dancing Script, sans-serif;
     letter-spacing: 5px;
 }
 
 .container {
-    display: ;
+    
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
     white-space: nowrap;
-    object-fit: cover;
+    z-index: 9;
   }
+
   .item {
     flex-basis: 100px;
     height: auto;
@@ -139,29 +142,59 @@ body {
     width: 100%;
   }
 
-#meditation {
+#meditation-title {
+    letter-spacing: 5px;
+    font-size: 1cm;
+    padding: auto;
+    margin: none;
     height: 100%;
     width: 100%;
+    font-family: Dancing Script, sans-serif;
+    letter-spacing: 5px;
+    text-align: left;
+    margin-left: 9.5%;
+}
+
+#meditation {
+    height: auto;
+    width: auto;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-#meditation-pic {
-   border-radius: 50%;
+#meditation-img {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    float: left;
+}
+
+
+#breath-title {
+    letter-spacing: 5px;
+    font-size: 1cm;
+    padding: auto;
+    margin: none;
+    height: 100%;
+    width: 100%;
+    font-family: Dancing Script, sans-serif;
+    letter-spacing: 5px;
 }
 
 #breath-img {
     border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    float: rigth;
 }
 
 #key-img {
     border-radius: 50%;
-}
-
-img {
-    background-size: cover;
+    height: 30%;
+    width: 30%;
+    float: left;
 }
 
 
