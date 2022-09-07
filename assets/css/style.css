@@ -95,9 +95,8 @@ body {
     color:#385E72;
     background: white;
     width: 300px;
-    padding-top: 30px;
-    padding-bottom: 50%;
-    margin: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: 100%;
     width: 100%;
     font-family: lato, sans-serif;
@@ -105,9 +104,6 @@ body {
     font-size: large ;
     line-height: 1.6;
     line-height: 1.6;
-    margin-block-start: 50px;
-    margin-block-end: 50px;
-    margin-block: 50px;
     background-color: #D9E4EC;
     white-space: nowrap;
     display: block;
@@ -126,43 +122,30 @@ body {
 }
 
 .container {
-    
-    padding-right: 30px;
     padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    white-space: nowrap;
-    z-index: 9;
+    padding-right: 30px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: 30px;
+    display: block;
   }
 
-  .item {
-    flex-basis: 100px;
-    height: auto;
-    margin: auto;
-    width: 100%;
-  }
-
-#meditation-title {
+  #meditation-title {
     letter-spacing: 5px;
     font-size: 1cm;
-    padding: auto;
-    margin: none;
     height: 100%;
     width: 100%;
     font-family: Dancing Script, sans-serif;
     letter-spacing: 5px;
     text-align: left;
-    margin-left: 9.5%;
+    margin-left: 10%;
+    padding-left: none;
+    padding-right: none;
+    padding-top: 5px;
+    padding-bottom: 5px%;
+    float: left;
 }
 
-#meditation {
-    height: auto;
-    width: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
 #meditation-img {
     height: 30%;
@@ -171,6 +154,38 @@ body {
     float: left;
 }
 
+#meditation-text {
+    height: 100%%;
+    width: 100%;
+    text-align: justify;
+    float: right;
+}
+
+#wrapper {
+    overflow: hidden;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30%;
+    margin-top: none;
+}
+
+.item {
+    flex-basis: 100px;
+    height: auto;
+    margin: auto;
+    width: 100%;
+  }
+
+#breath {
+    height: auto;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30%;
+    margin: 30px;
+}
 
 #breath-title {
     letter-spacing: 5px;
@@ -188,6 +203,16 @@ body {
     height: 30%;
     width: 30%;
     float: rigth;
+}
+
+#key-skills {
+    height: auto;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30%;
+    margin: 30px;
 }
 
 #key-img {
