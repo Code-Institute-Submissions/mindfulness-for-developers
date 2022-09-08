@@ -37,6 +37,7 @@ header {
   float: right;
   text-transform: uppercase;
   position: relative;
+  display: inline;
 }
 
 #menu, #logo {
@@ -46,6 +47,7 @@ header {
 #menu a {
   text-decoration: none;
   color: #385e72;
+  display: flex;
 }
 #menu a:hover {
   left: 0;
@@ -66,28 +68,25 @@ body {
 #welcome-title {
   letter-spacing: 5px;
   font-size: 1cm;
-  padding: auto;
-  margin: none;
   height: 100%;
   width: 100%;
   font-family: Oswald, sans-serif;
   letter-spacing: 5px;
 }
-#welcome {
+#welcome, #welcome-txt {
   color: #385e72;
   font-size: large;
   background: white;
   width: 300px;
-  padding: auto;
-  margin: auto;
   height: 100%;
   width: 100%;
   font-family: Lato, sans-serif;
   letter-spacing: 3px;
-  line-height: 1.6;
-  margin-block-start: 50px;
-  margin-block-end: 50px;
-  margin-block: 50px;
+  line-height: 2;
+  position: relative;
+  position: center;
+  text-align: center;
+  align-content: center;
 }
 /* Techniques */
 #techniques-title {
