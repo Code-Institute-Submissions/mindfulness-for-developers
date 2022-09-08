@@ -1,252 +1,252 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@300;400&family=Oswald:wght@200&display=swap');
-
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
-
+p {
+  padding: 1rem;
+}
 /* Header */
-
 header {
-    margin-left: 10px;
+  margin-left: 10px;
 }
-
-#logo {
-    font-family: Dancing Script, sans-serif;
-    color: #385E72;
-    letter-spacing: 5px;
-    text-decoration: none;
-    line-height: 30px;
-    position: relative;
-    text-align: left;
-    font-size: 0.5cm;
-}
-
-
-#menu li {
-    color: #385E72;
-    font-family: Lato, sans-serif;
-    float: right;
-    text-transform: uppercase;
-    display: inline;
-    line-height: 0.5px;
-    margin-left: 50px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    margin-top: auto;
-    position: relative;
-}
-
-#menu a {
-    text-decoration: none;
-}
-
-#menu a:hover {
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: #D9E4EC;
-}
-
-
-
-body {
-    font-family: Lato, sans-serif;
-    font-size: large;
-    text-align: center;
-    max-height: 1200px;
-}
-
-/*Welcome*/
-
-#welcome-title {
-    letter-spacing: 5px;
-    font-size: 1cm;
-    padding: auto;
-    margin: none;
-    height: 100%;
-    width: 100%;
-    font-family: Dancing Script, sans-serif;
-    letter-spacing: 5px;
-}
-
-#welcome {
-    color:#385E72;
-    font-size: large;
-    background: white;
-    width: 300px;
-    padding: auto;
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    font-family: Lato, sans-serif;
-    letter-spacing: 3px;
-    line-height: 1.6;
-    margin-block-start: 50px;
-    margin-block-end: 50px;
-    margin-block: 50px;
-}
-
-/* Techniques */
-
-#techniques-title {
-    letter-spacing: 5px;
-    font-size: 1cm;
-    padding: auto;
-    margin: none;
-    height: 100%;
-    width: 100%;
-    font-family: Dancing Script, sans-serif;
-    letter-spacing: 5px;
-}
-
-#techniques {
-    color:#385E72;
-    background: #D9E4EC;
-    font-size: large;
-    width: 300px;
-    padding: auto;
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    font-family: Lato, sans-serif;
-    letter-spacing: 3px;
-    line-height: 1.6;
-    margin-block-start: 50px;
-    margin-block-end: 50px;
-    margin-block: 50px;
-    display: block;
-}
-
 .container {
-    width: 300px;
-    padding: auto;
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    font-family: Lato, sans-serif;
-    letter-spacing: 3px;
-    line-height: 1.6;
-    margin-block-start: 50px;
-    margin-block-end: 50px;
-    margin-block: 50px;
-    display: block;
-  }
-
-  #meditation-title {
-    letter-spacing: 5px;
-    font-size: 1cm;
-    height: 100%;
-    width: 100%;
-    font-family: Dancing Script, sans-serif;
-    letter-spacing: 5px;
-    text-align: left;
-    margin-left: none;
-    padding-left: none;
-    padding-right: none;
-    padding-top: 5px;
-    padding-bottom: 5px%;
-    float: left;
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-
+#logo {
+  font-family: Dancing Script, sans-serif;
+  color: #385e72;
+  letter-spacing: 5px;
+  text-decoration: none;
+  line-height: 30px;
+  position: relative;
+  text-align: left;
+  font-size: 0.5cm;
+}
+.navi {
+  margin-top: 2rem;
+}
+#menu li {
+  color: #385e72;
+  font-family: Lato, sans-serif;
+  float: right;
+  text-transform: uppercase;
+  display: inline;
+  line-height: 0.5px;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: auto;
+  position: relative;
+}
+#menu a {
+  text-decoration: none;
+  color: #385e72;
+}
+#menu a:hover {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #d9e4ec;
+}
+body {
+  font-family: Lato, sans-serif;
+  font-size: large;
+  text-align: center;
+  max-height: 1200px;
+}
+/*Welcome*/
+#welcome-title {
+  letter-spacing: 5px;
+  font-size: 1cm;
+  padding: auto;
+  margin: none;
+  height: 100%;
+  width: 100%;
+  font-family: Dancing Script, sans-serif;
+  letter-spacing: 5px;
+}
+#welcome {
+  color: #385e72;
+  font-size: large;
+  background: white;
+  width: 300px;
+  padding: auto;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  font-family: Lato, sans-serif;
+  letter-spacing: 3px;
+  line-height: 1.6;
+  margin-block-start: 50px;
+  margin-block-end: 50px;
+  margin-block: 50px;
+}
+/* Techniques */
+#techniques-title {
+  letter-spacing: 5px;
+  font-size: 1cm;
+  padding: auto;
+  margin: none;
+  height: 100%;
+  width: 100%;
+  font-family: Dancing Script, sans-serif;
+  letter-spacing: 5px;
+}
+#techniques {
+  color: #385e72;
+  background: #d9e4ec;
+  font-size: large;
+  width: 300px;
+  padding: auto;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  font-family: Lato, sans-serif;
+  letter-spacing: 3px;
+  line-height: 1.6;
+  margin-block-start: 50px;
+  margin-block-end: 50px;
+  margin-block: 50px;
+  display: block;
+}
+.container {
+  width: 300px;
+  padding: auto;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  font-family: Lato, sans-serif;
+  letter-spacing: 3px;
+  line-height: 1.6;
+  margin-block-start: 50px;
+  margin-block-end: 50px;
+  margin-block: 50px;
+  display: block;
+}
+#meditation-title {
+  letter-spacing: 5px;
+  font-size: 1cm;
+  height: 100%;
+  width: 100%;
+  font-family: Dancing Script, sans-serif;
+  letter-spacing: 5px;
+  text-align: left;
+  margin-left: none;
+  padding: 1rem;
+  float: left;
+}
 #meditation-img {
-    height: 10%;
-    width: 10%;
-    border-radius: 50%;
-    float: right;
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  float: right;
 }
-
 #meditation-text {
-    height: 100%%;
-    width: 100%;
-    text-align: justify;
-    float: left;
+  height: 100%%;
+  width: 100%;
+  text-align: justify;
+  float: left;
 }
-
 #meditation {
-        height: 100%;
-        width: 100%;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 30px;
-        padding-bottom: 30%;
-        margin-left: 5%;
-        float: left;
-        background: url(../images/meditation-back.png);
-        background-position: 100%;
-    }
-
+  height: 100%;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30%;
+  margin-left: 5%;
+  float: left;
+  background: url(../images/meditation-back.png);
+  background-position: 100%;
+}
 .item {
-    display: table-row;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
+  display: table-row;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
 }
-
-
-
 #breath {
-    height: 100%;
-    width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30%;
-    margin: 30px;
-    float: right;
+  height: 100%;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30%;
+  margin: 30px;
+  float: right;
 }
-
 #breath-title {
-    letter-spacing: 5px;
-    font-size: 1cm;
-    padding: auto;
-    margin: none;
-    height: 100%;
-    width: 100%;
-    font-family: Dancing Script, sans-serif;
-    letter-spacing: 5px;
+  letter-spacing: 5px;
+  font-size: 1cm;
+  padding: auto;
+  margin: none;
+  height: 100%;
+  width: 100%;
+  font-family: Dancing Script, sans-serif;
+  letter-spacing: 5px;
 }
-
 #breath-img {
-    border-radius: 50%;
-    height: 30%;
-    width: 30%;
-    float: rigth;
+  border-radius: 50%;
+  height: 30%;
+  width: 30%;
+  float: rigth;
 }
-
 #key-skills {
-        height: 100%;
-        width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 30px;
-        padding-bottom: 30%;
-        margin: 30px;
-        float: left;
-    }
-
+  height: 100%;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30%;
+  margin: 30px;
+  float: left;
+}
 #skills-title {
-    letter-spacing: 5px;
-    font-size: 1cm;
-    padding: auto;
-    margin: none;
-    height: 100%;
-    width: 100%;
-    font-family: Dancing Script, sans-serif;
-    letter-spacing: 5px;
+  letter-spacing: 5px;
+  font-size: 1cm;
+  padding: auto;
+  margin: none;
+  height: 100%;
+  width: 100%;
+  font-family: Dancing Script, sans-serif;
+  letter-spacing: 5px;
 }
-
 #key-img {
-    border-radius: 50%;
-    height: 30%;
-    width: 30%;
-    float: left;
+  border-radius: 50%;
+  height: 30%;
+  width: 30%;
+  float: left;
 }
-
+/* Sign Up */
+/* Footer */
+@media (max-width: 830px) {
+  #menu a {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 780px) {
+  #menu a {
+    font-size: 0.7rem;
+  }
+  #menu li {
+    margin-left: 0;
+  }
+}
+@media (max-width: 550px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
 
 /* Sign Up */
 
