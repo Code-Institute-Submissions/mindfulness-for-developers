@@ -9,7 +9,7 @@ p {
 }
 /* Header */
 header {
-  margin-left: 10px;
+  margin: auto;
 }
 .container {
   max-width: 1140px;
@@ -21,26 +21,26 @@ header {
 #logo {
   font-family: Oswald, sans-serif;
   color: #385e72;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-decoration: none;
-  line-height: 30px;
-  text-align: left;
-  font-size: 0.5cm;
   float: left;
+  font-size: 0.5cm;
+  text-transform: uppercase;
 }
 .navi {
-  margin-top: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 #menu li {
-  color: #385e72;
+  color: inherit;
   font-family: Lato, sans-serif;
   float: right;
   text-transform: uppercase;
-  display: inline;
-  line-height-step: 1rem;
-  padding: 1rem;
   position: relative;
-  margin-bottom: 1rem;
+}
+
+#menu, #logo {
+  line-height: 75px;
 }
 
 #menu a {
