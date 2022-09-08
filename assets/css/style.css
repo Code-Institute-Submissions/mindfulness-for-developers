@@ -14,20 +14,19 @@ header {
 .container {
   max-width: 1140px;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 1rem;
+  margin: auto;
 }
+
 #logo {
-  font-family: Dancing Script, sans-serif;
+  font-family: Oswald, sans-serif;
   color: #385e72;
   letter-spacing: 5px;
   text-decoration: none;
   line-height: 30px;
-  position: relative;
   text-align: left;
   font-size: 0.5cm;
+  float: left;
 }
 .navi {
   margin-top: 2rem;
@@ -38,13 +37,12 @@ header {
   float: right;
   text-transform: uppercase;
   display: inline;
-  line-height: 0.5px;
-  margin-left: 50px;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  margin-top: auto;
+  line-height-step: 1rem;
+  padding: 1rem;
   position: relative;
+  margin-bottom: 1rem;
 }
+
 #menu a {
   text-decoration: none;
   color: #385e72;
@@ -63,6 +61,8 @@ body {
   max-height: 1200px;
 }
 /*Welcome*/
+
+
 #welcome-title {
   letter-spacing: 5px;
   font-size: 1cm;
@@ -70,7 +70,7 @@ body {
   margin: none;
   height: 100%;
   width: 100%;
-  font-family: Dancing Script, sans-serif;
+  font-family: Oswald, sans-serif;
   letter-spacing: 5px;
 }
 #welcome {
@@ -97,7 +97,7 @@ body {
   margin: none;
   height: 100%;
   width: 100%;
-  font-family: Dancing Script, sans-serif;
+  font-family: Oswald, sans-serif;
   letter-spacing: 5px;
 }
 #techniques {
@@ -136,7 +136,7 @@ body {
   font-size: 1cm;
   height: 100%;
   width: 100%;
-  font-family: Dancing Script, sans-serif;
+  font-family: Oswald, sans-serif;
   letter-spacing: 5px;
   text-align: left;
   margin-left: none;
@@ -192,15 +192,10 @@ body {
   margin: none;
   height: 100%;
   width: 100%;
-  font-family: Dancing Script, sans-serif;
+  font-family: Oswald, sans-serif;
   letter-spacing: 5px;
 }
-#breath-img {
-  border-radius: 50%;
-  height: 30%;
-  width: 30%;
-  float: rigth;
-}
+
 #key-skills {
   height: 100%;
   width: 100%;
@@ -218,17 +213,14 @@ body {
   margin: none;
   height: 100%;
   width: 100%;
-  font-family: Dancing Script, sans-serif;
+  font-family: Oswald, sans-serif;
   letter-spacing: 5px;
 }
-#key-img {
-  border-radius: 50%;
-  height: 30%;
-  width: 30%;
-  float: left;
-}
+
 /* Sign Up */
 /* Footer */
+
+
 @media (max-width: 830px) {
   #menu a {
     font-size: 1rem;
