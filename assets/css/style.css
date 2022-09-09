@@ -93,17 +93,18 @@ body {
   letter-spacing: 3px;
   line-height: 2;
   text-align: center;
+  border-left: 0;
 }
 /* Techniques */
 #techniques-title {
   letter-spacing: 5px;
   font-size: 1cm;
-  padding: auto;
-  margin: none;
   height: 100%;
   width: 100%;
   font-family: Oswald, sans-serif;
   letter-spacing: 5px;
+  text-align: center;
+  padding: 1rem;
 }
 #techniques {
   color: #385e72;
@@ -126,7 +127,7 @@ body {
   text-align: left;
   margin-left: none;
   padding: 1rem;
-  float: left;
+  text-align: center;
 }
 #meditation-img {
   height: 10%;
@@ -134,27 +135,44 @@ body {
   border-radius: 50%;
   float: right;
 }
-#meditation-txt {
+#meditation-txt, #meditation {
   color: #385e72;
   font-size: large;
-  background: #d9e4ec;
+  background: #B7CFDC;
   height: 100%;
   width: 100%;
   font-family: Lato, sans-serif;
   letter-spacing: 3px;
   line-height: 2;
-  text-align: justify;
-  padding: inherit;
-  margin: auto;
+  text-align: center;
 }
 .item {
   display: table-row;
 }
-
+#breath-txt, #breath {
+  color: #B7CFDC;
+  font-size: large;
+  background: #6AABD2;
+  height: 100%;
+  width: 100%;
+  font-family: Lato, sans-serif;
+  letter-spacing: 3px;
+  line-height: 2;
+  text-align: center;
+}
+#skills-txt, #skills {
+  color: #6AABD2;
+  font-size: large;
+  background: #385E72;
+  height: 100%;
+  width: 100%;
+  font-family: Lato, sans-serif;
+  letter-spacing: 3px;
+  line-height: 2;
+  text-align: center;
+}
 /* Sign Up */
 /* Footer */
-
-
 @media (max-width: 830px) {
   #menu a {
     font-size: 1rem;
@@ -173,8 +191,3 @@ body {
     font-size: 1.2rem;
   }
 }
-
-/* Sign Up */
-
-
-/* Footer */
