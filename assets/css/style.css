@@ -117,7 +117,7 @@ body {
   line-height: 1.6;
   display: block;
 }
-#meditation-title, #breath-title, #skills-title {
+#meditation-title, #breath-title, #skills-title, #sign-up-title {
   letter-spacing: 5px;
   font-size: 1cm;
   height: 100%;
@@ -170,6 +170,15 @@ body {
   letter-spacing: 3px;
   line-height: 2;
   text-align: center;
+}
+#skills-title {
+  color: #d9e4ec;
+}
+#sign-up {
+  background: white;
+}
+#contact-us {
+  font-family: Oswald, sans-serif;
 }
 /* Sign Up */
 /* Footer */
