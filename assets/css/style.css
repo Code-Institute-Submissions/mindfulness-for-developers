@@ -66,8 +66,15 @@ body {
   max-height: 1200px;
 }
 /*Welcome*/
-
-
+.container {
+  padding: auto;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  font-family: Lato, sans-serif;
+  letter-spacing: 3px;
+  line-height: 1.6;
+}
 #welcome-title {
   letter-spacing: 5px;
   font-size: 1cm;
@@ -80,16 +87,12 @@ body {
   color: #385e72;
   font-size: large;
   background: white;
-  width: 300px;
   height: 100%;
   width: 100%;
   font-family: Lato, sans-serif;
   letter-spacing: 3px;
   line-height: 2;
-  position: relative;
-  position: center;
   text-align: center;
-  align-content: center;
 }
 /* Techniques */
 #techniques-title {
@@ -106,34 +109,14 @@ body {
   color: #385e72;
   background: #d9e4ec;
   font-size: large;
-  width: 300px;
-  padding: auto;
-  margin: auto;
   height: 100%;
   width: 100%;
   font-family: Lato, sans-serif;
   letter-spacing: 3px;
   line-height: 1.6;
-  margin-block-start: 50px;
-  margin-block-end: 50px;
-  margin-block: 50px;
   display: block;
 }
-.container {
-  width: 300px;
-  padding: auto;
-  margin: auto;
-  height: 100%;
-  width: 100%;
-  font-family: Lato, sans-serif;
-  letter-spacing: 3px;
-  line-height: 1.6;
-  margin-block-start: 50px;
-  margin-block-end: 50px;
-  margin-block: 50px;
-  display: block;
-}
-#meditation-title {
+#meditation-title, #breath-title, #skills-title {
   letter-spacing: 5px;
   font-size: 1cm;
   height: 100%;
@@ -151,72 +134,21 @@ body {
   border-radius: 50%;
   float: right;
 }
-#meditation-text {
-  height: 100%%;
-  width: 100%;
-  text-align: justify;
-  float: left;
-}
-#meditation {
+#meditation-txt {
+  color: #385e72;
+  font-size: large;
+  background: #d9e4ec;
   height: 100%;
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 30px;
-  padding-bottom: 30%;
-  margin-left: 5%;
-  float: left;
-  background: url(../images/meditation-back.png);
-  background-position: 100%;
+  font-family: Lato, sans-serif;
+  letter-spacing: 3px;
+  line-height: 2;
+  text-align: justify;
+  padding: inherit;
+  margin: auto;
 }
 .item {
   display: table-row;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: center;
-}
-#breath {
-  height: 100%;
-  width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
-  padding-bottom: 30%;
-  margin: 30px;
-  float: right;
-}
-#breath-title {
-  letter-spacing: 5px;
-  font-size: 1cm;
-  padding: auto;
-  margin: none;
-  height: 100%;
-  width: 100%;
-  font-family: Oswald, sans-serif;
-  letter-spacing: 5px;
-}
-
-#key-skills {
-  height: 100%;
-  width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
-  padding-bottom: 30%;
-  margin: 30px;
-  float: left;
-}
-#skills-title {
-  letter-spacing: 5px;
-  font-size: 1cm;
-  padding: auto;
-  margin: none;
-  height: 100%;
-  width: 100%;
-  font-family: Oswald, sans-serif;
-  letter-spacing: 5px;
 }
 
 /* Sign Up */
