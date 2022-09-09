@@ -38,6 +38,9 @@ header {
   text-transform: uppercase;
   position: relative;
   display: inline;
+  list-style: none;
+  margin-right: 30px;
+  font-size: 80%;
 }
 
 #menu, #logo {
