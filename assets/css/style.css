@@ -132,7 +132,7 @@ body {
 .meditation-title-two {
   letter-spacing: 5px;
   font-size: 0.8cm;
-  color: white;
+  color: #0C4160;
   height: 100%;
   width: 100%;
   font-family: Oswald, sans-serif;
@@ -161,7 +161,7 @@ body {
   border-radius: 50%;
   float: right;
 }
-#meditation-txt, #meditation {
+#meditation-txt, #meditation,  {
   color: #385e72;
   font-size: large;
   background: #B7CFDC;
@@ -199,7 +199,7 @@ body {
   width: 13%;
 }
 #breath-txt, #breath {
-  color: #B7CFDC;
+  color: #D4F1F4;
   font-size: large;
   background: #6AABD2;
   height: 100%;
@@ -208,6 +208,9 @@ body {
   letter-spacing: 3px;
   line-height: 2;
   text-align: center;
+}
+#breath-link {
+  list-style: none;
 }
 #skills-txt, #skills {
   color: #6AABD2;
