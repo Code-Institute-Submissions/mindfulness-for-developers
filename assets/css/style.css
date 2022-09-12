@@ -190,6 +190,14 @@ body {
   text-align: center;
   border-left: 0;
 }
+#time-pic {
+  height: 10%;
+  width: 10%;
+}
+#meditation-element-pic {
+  height: 10%;
+  width: 10%;
+}
 #breath-txt, #breath {
   color: #B7CFDC;
   font-size: large;
