@@ -253,9 +253,9 @@ display: block;
   list-style: none;
 }
 #skills-txt, #skills {
-  color: #6AABD2;
+  color: #385e72;
   font-size: large;
-  background: #385E72;
+  background: #B7CFDC;
   height: 100%;
   width: 100%;
   font-family: Lato, sans-serif;
@@ -264,7 +264,16 @@ display: block;
   text-align: center;
 }
 #skills-title {
-  color: #d9e4ec;
+  letter-spacing: 5px;
+  font-size: 1cm;
+  height: 100%;
+  width: 100%;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 5px;
+  padding: inherit;
+  text-align: center;
+  background-color: #d9e4ec;
+  color: #385e72;
 }
 #sign-up {
   background: white;
