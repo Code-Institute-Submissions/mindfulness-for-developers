@@ -98,6 +98,7 @@ body {
 /* Techniques */
 #techniques-title {
   letter-spacing: 5px;
+  color: #385E72;
   font-size: 1cm;
   height: 100%;
   width: 100%;
@@ -105,17 +106,6 @@ body {
   letter-spacing: 5px;
   text-align: center;
   padding: 1rem;
-}
-#techniques {
-  color: #385e72;
-  background: #d9e4ec;
-  font-size: large;
-  height: 100%;
-  width: 100%;
-  font-family: Lato, sans-serif;
-  letter-spacing: 3px;
-  line-height: 1.6;
-  display: block;
 }
 #meditation-title, #breath-title, #skills-title, #sign-up-title {
   letter-spacing: 5px;
@@ -161,7 +151,7 @@ body {
   border-radius: 50%;
   float: right;
 }
-#meditation-txt, #meditation,  {
+#meditation-txt {
   color: #385e72;
   font-size: large;
   background: #B7CFDC;
@@ -171,6 +161,17 @@ body {
   letter-spacing: 3px;
   line-height: 2;
   text-align: center;
+}
+#meditation {
+color: #385e72;
+background: #d9e4ec;
+font-size: large;
+height: 100%;
+width: 100%;
+font-family: Lato, sans-serif;
+letter-spacing: 3px;
+line-height: 1.6;
+display: block;
 }
 .item {
   display: table-row;
