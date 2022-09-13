@@ -119,7 +119,7 @@ body {
   text-align: center;
   padding: 1rem;
 }
-#meditation-title, #skills-title, #sign-up-title {
+#meditation-title, #skills-title {
   letter-spacing: 5px;
   font-size: 1cm;
   height: 100%;
@@ -275,9 +275,50 @@ display: block;
   background-color: #d9e4ec;
   color: #385e72;
 }
-#sign-up {
-  background: white;
+#sign-up-title {
+  letter-spacing: 5px;
+  font-size: 1cm;
+  height: 100%;
+  width: 100%;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 5px;
+  text-align: left;
+  margin-left: none;
+  padding: 1rem;
+  text-align: center;
+  color: #385e72;
 }
+.fname, .lname, .email {
+    width:200px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid;
+    border-color: #d9e4ec;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  #sign-up {
+    color: #385e72;
+    font-size: large;
+    background: #B7CFDC;
+    height: 100%;
+    width: 100%;
+    font-family: Lato, sans-serif;
+    letter-spacing: 3px;
+    line-height: 2;
+    text-align: center;
+  }
+  #sign-up-txt {
+    color: #385e72;
+    font-size: large;
+    height: 100%;
+    width: 100%;
+    font-family: Lato, sans-serif;
+    letter-spacing: 3px;
+    line-height: 2;
+    text-align: center;
+  }
 #contact-us {
   font-family: Oswald, sans-serif;
 }
