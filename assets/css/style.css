@@ -4,9 +4,6 @@
   padding: 0;
   border: none;
 }
-p {
-  padding: 1rem;
-}
 /* Header */
 header {
   margin: auto;
@@ -17,7 +14,6 @@ header {
   padding: 2rem;
   margin: auto;
 }
-
 #logo {
   font-family: Oswald, sans-serif;
   color: #385e72;
@@ -26,7 +22,7 @@ header {
   float: left;
   font-size: 0.5cm;
   text-transform: uppercase;
-  margin: 1rem;
+  padding: 1rem;
 }
 .navi {
   margin-top: 0;
@@ -41,17 +37,16 @@ header {
   position: relative;
   display: inline;
   list-style: none;
-  margin-right: 15px;
-  margin-inline-start: 10px;
+  margin-right: 1rem;
+  margin-inline-start: .5rem;
   font-size: 80%;
   background-color: aliceblue;
   border-radius: 30%;
 }
-
 #menu, #logo {
   line-height: 75px;
+  padding-bottom: 1rem;
 }
-
 #menu a {
   text-decoration: none;
   color: #385e72;
@@ -88,7 +83,7 @@ body {
   width: 100%;
   font-family: Oswald, sans-serif;
   letter-spacing: 5px;
-  margin-top: 10%;
+  padding-top: 1rem;
 }
 #wave-pic {
   height: 30%;
@@ -104,7 +99,7 @@ body {
   line-height: 2;
   text-align: center;
   border-left: 0;
-  margin-bottom: 10%;
+  margin-bottom: 1rem;
 }
 /* Techniques */
 #techniques-title {
@@ -116,7 +111,6 @@ body {
   font-family: Oswald, sans-serif;
   letter-spacing: 5px;
   text-align: center;
-  padding: 1rem;
 }
 #meditation-title, #skills-title {
   letter-spacing: 5px;
@@ -127,7 +121,6 @@ body {
   letter-spacing: 5px;
   text-align: left;
   margin-left: none;
-  padding: 1rem;
   text-align: center;
 }
 .meditation-title-two {
@@ -140,7 +133,6 @@ body {
   letter-spacing: 5px;
   text-align: left;
   margin-left: none;
-  padding: 1rem;
   text-align: center;
 }
 .meditation-title-three {
@@ -153,7 +145,6 @@ body {
   letter-spacing: 5px;
   text-align: left;
   margin-left: none;
-  padding: 1rem;
   text-align: center;
 }
 #meditation-img {
@@ -234,7 +225,6 @@ display: block;
   letter-spacing: 5px;
   text-align: left;
   margin-left: none;
-  padding: 1rem;
   text-align: center;
 }
 #breath-txt, #breath {
@@ -269,7 +259,6 @@ display: block;
   width: 100%;
   font-family: Oswald, sans-serif;
   letter-spacing: 5px;
-  padding: inherit;
   text-align: center;
   background-color: #d9e4ec;
   color: #385e72;
@@ -284,7 +273,6 @@ display: block;
   letter-spacing: 5px;
   text-align: left;
   margin-left: none;
-  padding: 1rem;
   text-align: center;
   color: #385e72;
 }
@@ -295,8 +283,6 @@ display: block;
     border: solid;
     border-color: #d9e4ec;
     border-radius: 10%;
-    margin-top: 10px;
-    margin-bottom: 20px;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.04);
   }
   #sign-up {
@@ -322,7 +308,6 @@ display: block;
   #meet-up-img {
     height: 80%;
     width: 80%;
-    padding: 1rem;
     align-self: center;
   }
 /* Footer */
@@ -337,25 +322,23 @@ display: block;
 }
 .social-networks i {
   font-size: 160%;
-  margin: 1%;
   padding: 5%;
   color: #0C4160;
 }
 @media (max-width: 850px) {
+  .container {
+    padding: 0;
+    margin: 0;
+  }
   #menu a {
     font-size: 1rem;
   }
   #menu {
     clear: left;
     float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
     line-height: 25px;
   }
-  #techniques {
-    margin-right: 20px;
-    margin-left: 20px;
-  }
+}
 @media (max-width: 780px) {
   #menu a {
     font-size: 0.7rem;
