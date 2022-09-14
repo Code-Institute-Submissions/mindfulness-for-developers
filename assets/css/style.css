@@ -274,6 +274,7 @@ display: block;
   background-color: #d9e4ec;
   color: #385e72;
 }
+/* Sign Up */
 #sign-up-title {
   letter-spacing: 5px;
   font-size: 1cm;
@@ -318,11 +319,28 @@ display: block;
     line-height: 2;
     text-align: center;
   }
-#contact-us {
-  font-family: Oswald, sans-serif;
-}
-/* Sign Up */
+  #meet-up-img {
+    height: 80%;
+    width: 80%;
+    padding: 1rem;
+    align-self: center;
+  }
 /* Footer */
+#footer {
+    height: 150px;
+}
+.social-networks {
+  text-align: center;
+}
+.social-networks > li {
+  display: inline;
+}
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #0C4160;
+}
 @media (max-width: 830px) {
   #menu a {
     font-size: 1rem;
