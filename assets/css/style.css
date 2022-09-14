@@ -341,17 +341,29 @@ display: block;
   padding: 5%;
   color: #0C4160;
 }
-@media (max-width: 830px) {
+@media (max-width: 850px) {
   #menu a {
     font-size: 1rem;
   }
-}
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+  #techniques {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
 @media (max-width: 780px) {
   #menu a {
     font-size: 0.7rem;
+    float: right;
   }
   #menu li {
     margin-left: 0;
+    float: right;
   }
 }
 @media (max-width: 550px) {
