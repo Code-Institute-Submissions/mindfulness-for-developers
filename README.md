@@ -20,3 +20,9 @@ The website brings valuable tips on developing a more mindful attitude for every
 It brings concepts and step-by-step instructions. It also links to youtube about meditation, breathing techniques and conservative principles.
 
 It also offers the opportunity to join a community of developers who meet regularly and share their own experiences on how they apply mindful techniques in their lives.
+
+## UX 5 Planes
+
+### Strategy Plane
+
+The website was built to provide in a very a
