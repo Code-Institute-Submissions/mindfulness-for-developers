@@ -7,4 +7,9 @@ For link to this website click [Here](https://muniquemc.github.io/mindfulness-fo
 
 This website was designed for *Desktop, Laptop and Tablets* but is also responsive on mobile devices.
 
-![Am I Responsive]([https://ui.dev/amiresponsive?url=https://muniquemc.github.io/mindfulness-for-developers/])
+![Responsive](images/responsive.jpg)
+
+## Who is this website for?
+
+This website contains information about Mindfulness for anyone interested in the subject, especially those who work as developers. The website brings valuable tips on developing a more mindful attitude in life.
+
