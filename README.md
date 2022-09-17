@@ -25,4 +25,12 @@ It also offers the opportunity to join a community of developers who meet regula
 
 ### Strategy Plane
 
-The website was built to provide in a very a
+Mindful is a very extensive subject which involves different techniques. The strategy was to find a way where all the main information about the subject could be accessed quickly by the users.
+
+### Scope Plane
+
+The users have all the information they need to practice mindful techniques, all on a single page where they can easily scroll through sections, redirecting for complementary content when needed using the links provided along the page.
+
+There are three links on the menu to provide access to the main sections of the single page.
+
+
