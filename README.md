@@ -7,4 +7,4 @@ For link to this website click [Here](https://muniquemc.github.io/mindfulness-fo
 
 This website was designed for *Desktop, Laptop and Tablets* but is also responsive on mobile devices.
 
-![My Image](assets/images/website.png)
+![Am I Responsive]([https://ui.dev/amiresponsive?url=https://muniquemc.github.io/mindfulness-for-developers/])
