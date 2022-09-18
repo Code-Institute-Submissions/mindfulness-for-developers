@@ -290,7 +290,7 @@ display: block;
   color: #385e72;
   background-color: #d9e4ec;
 }
-.fname, .lname, .email {
+#fname, #lname, #email {
     width:200px;
     padding: 10px;
     box-sizing: border-box;
