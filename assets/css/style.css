@@ -86,7 +86,7 @@ body {
   padding-top: 1rem;
 }
 .main-pitcure {
-  width: 200;
+  width: 100;
   height: auto;
 }
 #welcome, #welcome-txt {
@@ -158,8 +158,8 @@ ul {
   float: right;
 }
 #meditation-txt {
-  color: #;
-  font-size: large;
+  color: darkblue;
+  font-size: larger;
   background: #B7CFDC;
   height: 100%;
   width: 100%;
@@ -187,7 +187,7 @@ display: block;
   width: 10%;
 }
 #consistency-txt {
-  color: #385e72;
+  color: darkblue;
   font-size: large;
   height: 100%;
   width: 100%;
@@ -232,7 +232,7 @@ display: block;
   text-align: center;
 }
 #breath-txt, #breath {
-  color: #385e72;
+  color: darkblue;
   font-size: large;
   background: #B7CFDC;
   height: 100%;
@@ -246,7 +246,7 @@ display: block;
   list-style: none;
 }
 #skills-txt, #skills {
-  color: #385e72;
+  color: darkblue;
   font-size: large;
   background: #B7CFDC;
   height: 100%;
