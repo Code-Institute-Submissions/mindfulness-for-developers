@@ -158,9 +158,9 @@ ul {
   float: right;
 }
 #meditation-txt {
-  color: darkblue;
+  color:#385E72;
   font-size: larger;
-  background: #B7CFDC;
+  background: white;
   height: 100%;
   width: 100%;
   font-family: Lato, sans-serif;
@@ -183,11 +183,13 @@ display: block;
   display: table-row;
 }
 #consistency-pic {
+  background-color: #B7CFDC;
+  border-radius: 50%;
   height: 10%;
   width: 10%;
 }
 #consistency-txt {
-  color: darkblue;
+  color: #385e72;
   font-size: large;
   height: 100%;
   width: 100%;
@@ -200,10 +202,14 @@ display: block;
 #time-pic {
   height: 10%;
   width: 10%;
+  background-color: #B7CFDC;
+  border-radius: 50%;
 }
 #meditation-element-pic {
   height: 13%;
   width: 13%;
+  background-color: #B7CFDC;
+  border-radius: 50%;
 }
 #breath-title {
   letter-spacing: 5px;
@@ -232,7 +238,7 @@ display: block;
   text-align: center;
 }
 #breath-txt, #breath {
-  color: darkblue;
+  color: #385e72;
   font-size: large;
   background: #B7CFDC;
   height: 100%;
@@ -246,7 +252,7 @@ display: block;
   list-style: none;
 }
 #skills-txt, #skills {
-  color: darkblue;
+  color: #385e72;
   font-size: large;
   background: #B7CFDC;
   height: 100%;
