@@ -45,7 +45,7 @@ There are three links on the menu to provide access to the main sections of the 
 
 -[Techniques](./assets/images/techniques.png)
 
-### Sceleton Plane
+### Skeleton Plane
 
 Design was mainly focused on big screen (desktop, laptop) but you users can also access the page on a mobile device.
 
