@@ -306,6 +306,15 @@ display: block;
     line-height: 2;
     text-align: center;
   }
+  .button {
+    background-color: #385e72;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
   #meet-up-img {
     height: 80%;
     width: 80%;
