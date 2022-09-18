@@ -102,6 +102,9 @@ body {
   margin-bottom: 1rem;
 }
 /* Techniques */
+ul {
+  list-style: none;
+}
 #techniques-title {
   letter-spacing: 5px;
   color: #385E72;
