@@ -43,7 +43,7 @@ There are three links on the menu to provide access to the main sections of the 
 
 - The second link, 'Techniques,' directs the user to the section with the three main techniques that mindfulness is about.
 
--[Techniques](./assets/images/techniques.png)
+![Techniques](./assets/images/techniques.png)
 
 ### Skeleton Plane
 
