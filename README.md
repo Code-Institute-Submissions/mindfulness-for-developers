@@ -57,7 +57,6 @@ The color palette was inspired by the pallet 'Ice Infinity' (#D9E4EC, #B7CFDC, #
 #385E72) from the Canva app. The reason this pallet was chosen was to give the website a relaxing atmosphere.
 
 
-
 * Typography
 
 Two types of fonts were used, downloaded from the Google Fonts families:
@@ -100,7 +99,9 @@ It was tested on  Macbook Pro, Apple iPhone 12 and Samsung A6 and A10 mobile pho
 
 ### Validators
 
-The website was checked by W3C HTML validator and it did not reported any issues. You can find the result [Here]()
+The website was checked by W3C HTML validator and it did not reported any issues. You can find the result [Here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmuniquemc.github.io%2Fmindfulness-for-developers%2F)
+
+![Validator](./assets/images/w3-website.png)
 
 ## Version control
 
