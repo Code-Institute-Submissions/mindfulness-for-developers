@@ -85,9 +85,9 @@ body {
   letter-spacing: 5px;
   padding-top: 1rem;
 }
-#wave-pic {
-  height: 30%;
-  width: 100%;
+.main-pitcure {
+  width: 200;
+  height: auto;
 }
 #welcome, #welcome-txt {
   color: #385e72;
