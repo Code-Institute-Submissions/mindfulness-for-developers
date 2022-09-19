@@ -364,16 +364,6 @@ display: block;
     float: left;
     line-height: 25px;
   }
-  .main-pitcure {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-  }
-  #meet-up-img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-  }
   #meditation-txt {
     padding: 0;
     margin: 0;
@@ -397,40 +387,14 @@ display: block;
     margin-left: 0;
     float: right;
   }
-  .main-pitcure {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
   }
-  #meet-up-img {
-    #meet-up-img {
-      width: 100%;
-      max-width: 200px;
-      height: auto;
-    }
-  }
-}
 @media (max-width: 550px) {
   .container {
-    padding: 30px;
+    padding: 0;
     margin: 0;
     text-align: center;
   }
   h1 {
     font-size: 1.2rem;
-  }
-  .main-pitcure {
-    width: 100%;
-    max-width: 100px;
-    height: auto;
-  }
-  #meet-up-img {
-    width: 100%;
-    max-width: 100px;
-    height: auto;
-  }
-  #meditation-txt {
-    padding: 0;
-    margin: 0;
   }
 }
