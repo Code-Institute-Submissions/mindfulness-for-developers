@@ -353,9 +353,8 @@ display: block;
 }
 @media (max-width: 850px) {
   .container {
-    padding: 30px;
+    padding: 0;
     margin: 0;
-    text-align: center;
   }
   #menu a {
     font-size: 1rem;
@@ -367,25 +366,28 @@ display: block;
   }
   .main-pitcure {
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
+    height: auto;
+  }
+  #meet-up-img {
+    width: 100%;
+    max-width: 300px;
     height: auto;
   }
   #meditation-txt {
-    padding: 30px;
+    padding: 0;
     margin: 0;
-    text-align: center;
   }
 }
 @media (max-width: 780px) {
   .container {
-    padding: 30px;
+    padding: 0;
     margin: 0;
     text-align: center;
   }
   #meditation-txt {
-    padding: 30px;
+    padding: 0;
     margin: 0;
-    text-align: center;
   }
   #menu a {
     font-size: 0.7rem;
@@ -397,8 +399,15 @@ display: block;
   }
   .main-pitcure {
     width: 100%;
-    max-width: 400px;
+    max-width: 200px;
     height: auto;
+  }
+  #meet-up-img {
+    #meet-up-img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    }
   }
 }
 @media (max-width: 550px) {
@@ -412,12 +421,16 @@ display: block;
   }
   .main-pitcure {
     width: 100%;
-    max-width: 300px;
+    max-width: 100px;
+    height: auto;
+  }
+  #meet-up-img {
+    width: 100%;
+    max-width: 100px;
     height: auto;
   }
   #meditation-txt {
-    padding: 30px;
+    padding: 0;
     margin: 0;
-    text-align: center;
   }
 }
