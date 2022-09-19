@@ -353,7 +353,7 @@ display: block;
 }
 @media (max-width: 850px) {
   .container {
-    padding: 0;
+    padding: 30px;
     margin: 0;
     text-align: center;
   }
@@ -373,7 +373,7 @@ display: block;
 }
 @media (max-width: 780px) {
   .container {
-    padding: 0;
+    padding: 30px;
     margin: 0;
     text-align: center;
   }
@@ -393,7 +393,7 @@ display: block;
 }
 @media (max-width: 550px) {
   .container {
-    padding: 0;
+    padding: 30px;
     margin: 0;
     text-align: center;
   }
