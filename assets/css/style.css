@@ -370,9 +370,19 @@ display: block;
     max-width: 500px;
     height: auto;
   }
+  #meditation-txt {
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+  }
 }
 @media (max-width: 780px) {
   .container {
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+  }
+  #meditation-txt {
     padding: 30px;
     margin: 0;
     text-align: center;
@@ -404,5 +414,10 @@ display: block;
     width: 100%;
     max-width: 300px;
     height: auto;
+  }
+  #meditation-txt {
+    padding: 30px;
+    margin: 0;
+    text-align: center;
   }
 }
