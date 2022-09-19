@@ -355,6 +355,7 @@ display: block;
   .container {
     padding: 0;
     margin: 0;
+    text-align: center;
   }
   #menu a {
     font-size: 1rem;
@@ -370,6 +371,11 @@ display: block;
   }
 }
 @media (max-width: 780px) {
+  .container {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
   #menu a {
     font-size: 0.7rem;
     float: right;
@@ -384,6 +390,11 @@ display: block;
   }
 }
 @media (max-width: 550px) {
+  .container {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
   h1 {
     font-size: 1.2rem;
   }
