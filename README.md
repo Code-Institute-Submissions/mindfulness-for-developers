@@ -5,7 +5,7 @@ It was an amazing experience learning more about Mindfulness while practising HT
 
 For link to this website click [Here](https://muniquemc.github.io/mindfulness-for-developers/)
 
-This website was designed for *Desktop, Laptop and Tablets* but is also responsive on mobile devices.
+This website was designed for *Desktop, Laptop and Tablets*.
 
 ![Responsive](./assets/images/responsive.jpg)
 
